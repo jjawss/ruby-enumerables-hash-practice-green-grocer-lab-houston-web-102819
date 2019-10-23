@@ -5,10 +5,6 @@
 #p cart_contents
 #end
 
-#def consolidate_cart(cart)
-  #p cart.reduce {|x| x.values}
-#end
-#=>
 
 #THIS IS A GOOD EXAMPLE OF PRODUCING A NON REPEATING OUTPUT
 # supplies = []
@@ -31,8 +27,7 @@ puts supplies.flatten.uniq
 puts supplies.flatten.uniq
 
 def consolidate_cart(cart)
-  item_count = cart.count {|item| p item}
-  p item_count
+  
 end
 
 def apply_coupons(cart, coupons)
