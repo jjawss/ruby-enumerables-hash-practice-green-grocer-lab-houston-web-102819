@@ -27,9 +27,11 @@ puts supplies.flatten.uniq
 puts supplies.flatten.uniq
 
 def consolidate_cart(cart)
- cart_contents = {}
- item_count = cart.uniq.each do |item|
-  return cart_contents[:item] =  
+  cart_contents = {}
+  item_count = cart.uniq.each do |item|
+  cart_contents[:item] =  a.count(elem)
+  end
+  puts cart_contents
 end
 
 def apply_coupons(cart, coupons)
