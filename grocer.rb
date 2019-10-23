@@ -17,6 +17,7 @@
     #supplies << value2
   #end
 #end
+#puts supplies.flatten.uniq
 #This would give us a nice list each supply and would remove duplicates from the list:
 
 #lights
