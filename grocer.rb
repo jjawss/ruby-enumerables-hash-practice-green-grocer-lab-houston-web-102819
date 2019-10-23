@@ -22,9 +22,6 @@
 #BBQ
 #flags
 
- 
-puts supplies.flatten.uniq 
-puts supplies.flatten.uniq
 
 def consolidate_cart(cart)
   cart_contents = {}
